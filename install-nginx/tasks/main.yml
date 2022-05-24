@@ -1,0 +1,9 @@
+---
+# tasks file for install-nginx
+
+- name: Install Nginx
+  apt:
+    name: nginx
+    state: present
+  notify: 
+  - restart-nginx

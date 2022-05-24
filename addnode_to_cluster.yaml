@@ -1,0 +1,9 @@
+- name: add-node-to-es-cluster
+  hosts: all
+  become: yes
+  roles:
+  - install-java
+  - add-node-to-escluster
+
+
+  

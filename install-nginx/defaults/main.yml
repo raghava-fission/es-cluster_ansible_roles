@@ -1,0 +1,4 @@
+---
+# defaults file for install-nginx
+
+nginx_version: 1.17

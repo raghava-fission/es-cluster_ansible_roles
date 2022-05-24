@@ -1,0 +1,5 @@
+elastic_cluster_name: fission-cluster
+data_path: /var/lib/elasticsearch
+log_path: /var/log/elasticsearch
+is_master: true
+is_node: false

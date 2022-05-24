@@ -1,0 +1,9 @@
+---
+# vars file for add-node-to-escluster
+es_cluster_name: fission-cluster
+es_seed_hosts: 13.233.201.32, 3.109.56.72
+es_master_nodes: 13.233.201.32
+data_path: /var/lib/elasticsearch
+log_path: /var/log/elasticsearch
+is_master: false
+is_node: true

@@ -1,0 +1,5 @@
+[es-master-nodes]
+13.233.201.32
+
+[es-data-nodes]
+3.109.56.72

@@ -1,0 +1,7 @@
+---
+# tasks file for install-java
+
+- name: Install Java
+  apt:
+    name:  "{{java_version}}"
+    state:  present

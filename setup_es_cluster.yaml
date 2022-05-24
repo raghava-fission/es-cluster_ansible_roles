@@ -1,0 +1,6 @@
+- name: configure-es-cluster
+  hosts: all
+  become: yes
+  roles:
+    - install-java
+    - elastic-search

@@ -1,0 +1,5 @@
+---
+# vars file for elastic-search
+
+
+elastic_search_version: 8.2

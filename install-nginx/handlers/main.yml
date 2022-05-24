@@ -1,0 +1,7 @@
+---
+# handlers file for install-nginx
+
+- name: restart-nginx
+  service:
+    name: nginx
+    state: restarted
